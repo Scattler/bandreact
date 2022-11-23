@@ -31,34 +31,29 @@ export function Integrantes(){
     ]
 
 
-    return(
 
-        <div className="row row-cols-1 row-cols-md-2 g-0 mt-5">
+return (
+    <>
+        <div className="row row-cols-1 row-cols-md-4 g-0 mt-3">
             {
-
-                integrantes.map(function(integrante){
-                    return(
-
+                integrantes.map(function (integrante) {
+                    return (
                         <>
-                            <div className="col mt-3" bg-dark p-5>
+                            <div className="col bg-dark p-5">
                                 <div className="card h-100">
-                                    <img src={integrante.fotografia} alt="foto"
-                                    className="img-fluid w-100 h-100"/>
+                                    <img src={integrante.fotografia} alt="foto" className="img-fluid w-100 h-75" />
                                     <h4 className="text-center">{integrante.nombre}</h4>
-                                    <br/>
-                                    <h5 className="text-center"> Edad: {integrante.edad}</h5>
-                                    <h6 className="text-center"> Rol: {integrante.instrumento}</h6>
-                                </div >
-                            
+                                    <br />
+                                    <h5 className="text-center">Edad: {integrante.edad}</h5>
+                                    <h5 className="text-center">Rol: {integrante.instrumento}</h5>
+
+                                </div>
                             </div>
                         </>
-
                     )
-
-
                 })
             }
-
         </div>
-    )
+    </>
+)
 }

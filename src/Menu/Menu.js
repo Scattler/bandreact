@@ -12,23 +12,24 @@ export function Menu(){
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/integrantes">Integrantes</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="#">Pricing</Link>
-                        </li>
-                        
-                    </ul>
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/">Home</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/integrantes">Integrantes</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/historia">Historia</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/musica">Music</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        
+            </nav>
+
         </>
     )
-
 }

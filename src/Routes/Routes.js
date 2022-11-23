@@ -10,7 +10,6 @@ export function Rutas(){
 
     return (
         <div classNameName="App">
-          <Menu/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="historia" element={<Historia />} />

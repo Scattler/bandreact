@@ -1,4 +1,4 @@
- async function servicioCanciones(){
+ export async function servicioCanciones(){
 
 
     const URI="https://api.spotify.com/v1/artists/7s9xvGsMjmPZmBYa6iEJTm/top-tracks?market=EN"
@@ -8,9 +8,10 @@
         headers: {Authorization:TOKEN}
 
 
-}
+};
 
-let respuesta=await fetch(URI,PETICION)
-let canciones= await repuesta.json()
+let respuesta = await fetch(URI, PETICION);
+let canciones = await respuesta.json();
+return canciones;
 
 }
