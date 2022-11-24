@@ -1,8 +1,8 @@
  export async function servicioCanciones(){
 
 
-    const URI="https://api.spotify.com/v1/artists/7s9xvGsMjmPZmBYa6iEJTm/top-tracks?market=EN"
-    const TOKEN="Bearer BQDhXtC78xMchBLTZqPSJ72L0z-L3w2SVD0Om-6Tr0u_INhJAJ9LTc-HUEF-_v2Moxi5eZ8mPE6ocalukzuTuM_4NK18QW1SZST_BvS3Wnug5z7dvYy3g36sYbteFsdusJEdNkh8PuEVYu3tzrh13XjkElIJn_qx4MGkDvibdJAozg"
+    const URI="https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ/top-tracks?market=US"
+    const TOKEN="Bearer BQAZoBBd0At3nCpLgUxUZEfm2O8-Sht0IjtTkfwHXtRENYvpjw0ziS6pZv__WI1_KZvHwjDMSOwNOtCoY3kCw9smTgpi15Wy5fgmbXWGzCS6j9hv12v5GohDjLrpPBxchFgDgtxdY6dIqOzhuz4WhOWEEDG4TY8KjBOE43KCf_bPWA"
     const PETICION={
         method:"GET",
         headers: {Authorization:TOKEN}

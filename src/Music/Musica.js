@@ -25,7 +25,7 @@ export function Music(){
     } else {
         return (
             <>
-                <h1>Music Loaded.</h1>
+                <h1></h1>
                 <div className="row bg-dark p-5">
                     {
                         // Mapeamos el resultado de la API
